@@ -8,7 +8,7 @@ class List extends React.Component {
       <section className="List">
         <header>this.props.header</header>
         <div className="List-cards">
-          this.props.cards.map((card) =>{' '}
+          this.props.cards.map(function(card)
           {<Card key={Card.id} title={Card.title} content={Card.content} />})
           <button type="button" className="List-add-button">
             Add Random Card
